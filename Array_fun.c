@@ -1,3 +1,5 @@
+//THIS PROGRAM DEALS WITH MANY OF THE ARRAY FUNCTIONS.
+
 #include<stdio.h>
 
 
