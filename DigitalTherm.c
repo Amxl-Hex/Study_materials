@@ -1,3 +1,7 @@
+//A TEMPERATURE CONVERTOR FROM EITHER CELCIUS TO FAHRENHEIT OR VICE VERSA. IT IS GIVEN IN A WHILE LOOP AND USING THE SWITCH CASE THE USER CAN SELECT WHICH CONVERSION.
+//AND AT THE END OF USER INPUT THE USER CAN GIVE 'N' OR 'n' WHICH WILL DISPLAY THE TOTAL NUMBER OF READINGS THAT IS INPUT, THE AVERAGE TEMPERATURE, MINIMUM TEMPERATURE
+//AND MAX TEMPERATURE
+
 #include<stdio.h>
 
 float ctof(int c)
@@ -12,7 +16,7 @@ float ftoc(int f)
 {
 float ce;
 ce=(5*(f-32))/9;
-printf("\nConerted temperature = %f\n", ce);
+printf("\nConverted temperature = %f\n", ce);
 return ce;
 }
 
