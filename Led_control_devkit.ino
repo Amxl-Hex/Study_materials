@@ -1,6 +1,8 @@
 /*
   This experiment was done using a development board from NIELIT Calicut. It incorporates ESP32-Wroom and several peripherals like RGB, Touch sensor, Buzzer, LDR
-  DHT11 and switch
+  DHT11 and switch.
+
+  Here we control the built-in LED of the ESP32 and also the RGB of the development board.
 */
 
 #include "BluetoothSerial.h"
