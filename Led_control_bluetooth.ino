@@ -30,7 +30,7 @@ pinMode(3, OUTPUT);
 pinMode(LED_BLUE, OUTPUT);
 pinMode(4, OUTPUT);
 Serial.begin(115200);
-SerialBT.begin("Fri_mal"); //Bluetooth device name
+SerialBT.begin("ESP_bluetooth"); //Bluetooth device name
 Serial.println("The device started, now you can pair it with bluetooth!");
 }
 
